@@ -32,10 +32,12 @@ class Vector:
             return "Ні"
 
 
-x = Vector(0, 0)
-y = Vector(1, 1)
+x = Vector(1, 4)
+y = Vector(5, 6)
 print(x.__str__())
-print('Довжина вектора:', x.lenght())
-print(x.__add__(y))
+print(y.__str__())
+print('Довжина першого вектора: ', x.lenght())
+print('Довжина другого вектора: ', y.lenght())
+print('Додавання:', x.__add__(y))
 print("Скалярний добуток:", x.scalar(y))
 print("Перпендикулярні? :", x.eqZero(y))
