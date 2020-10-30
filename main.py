@@ -1,4 +1,5 @@
 import math
+import radius
 
 
 class Vector:
@@ -41,3 +42,13 @@ print('Довжина другого вектора: ', y.lenght())
 print('Додавання:', x.__add__(y))
 print("Скалярний добуток:", x.scalar(y))
 print("Перпендикулярні? :", x.eqZero(y))
+
+#Діаметр кола
+print("Діаметр кола:", radius.diameter(15))
+
+#Площа кола
+print("Площа кола:", radius.square(5))
+
+#Довжина кола
+print("Довжина кола:", radius.circuitLen(3))
+
