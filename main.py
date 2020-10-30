@@ -32,8 +32,6 @@ class Vector:
             return "Ні"
 
 
-# до обіду
-
 x = Vector(0, 0)
 y = Vector(1, 1)
 print(x.__str__())
